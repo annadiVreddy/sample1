@@ -1,0 +1,113 @@
+
+.borderass{
+    border: 1px solid;
+}
+.container{
+   background-image: url("homeBackgroundPizzaHawaii.jpg");
+   font-family: sans-serif;
+    text-align: center; 
+}
+header, footer{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: black;
+    clear: both;
+    padding: 1px;
+}
+header{
+    
+}
+fieldset {
+    padding: 9%;
+}
+
+.myForm{
+    width: 30%;
+    padding: 13% 2%;
+    border: 1px solid;
+    overflow: auto;
+    float: left;
+}
+#form_id{
+   padding: 2%; 
+    width: 75%;
+    float: left;
+}
+.textAboutKanban{
+    float: left;
+    width: 61%;
+    padding: 2%;
+    font-family: sans-serif;
+    height: auto;
+    margin: 4% 0;
+    text-align: center;
+}
+.lnks{
+    margin: 10%;
+}
+
+.allfloatLeft{
+    float: left;
+}
+.leftBox{
+    width: 25%;
+    padding: 2% 0;
+}
+.middleBox{
+    width: 49%;
+}
+.rightBox{
+    width: 25%;
+}
+.rightBox1, .rightBox3, .rightBox2{
+    margin: 1%;
+    padding: 10% 2%;
+}
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 29px solid transparent;
+	border-right: 29px solid transparent;
+	border-bottom: 50px solid white;
+    background-color : transparent;
+    margin: 0 35%;
+}
+.leftBoxBottomContent{
+    padding: 8%;
+}
+#myOven{
+    width: 41%;
+    margin: 2% 14%;
+}
+#myCanvas{
+    width: 95%;
+    height: 310px;
+    background-color: lightgray;
+    border: 2px solid darkgray;
+}
+.activityStatusBox{
+    width: 74%;
+    height: 129px;
+    float: left;
+    margin: -12% 0 0% 0;
+    background-color: #e1eaea;
+    padding: 1% 0;
+}
+td, th, table{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+.tabled{
+    margin: 2% 27%;
+}
+.myTableHead{
+    width: 9%;
+}
+.kanbanOut{
+    margin: 2%;
+}
+.gameVariablesExplanation{
+    margin: 6% 0% 7% 0%;
+    padding: 4%;
+}

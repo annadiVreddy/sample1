@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" href ="homecss.css">
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta http-equiv="REFRESH" content="330; url=round3.html">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="round1js.js"></script> 
+	</head>
+		<body onload="InitThis();" class="container">
+				<header>
+					<p>Round 2</p>
+				</header>
+				<div class="allfloatLeft borderass leftBox">
+				    <h2>List of Materials</h2>
+					<button id = "triangle-up" onclick = "drawPolygon()"></button><p>Sliced paper(Pizza base)</p>
+						<div class="leftBoxBottomContent">Line width : <select id="selWidth">
+											<option value="1">1</option>
+											<option value="3">3</option>
+											<option value="5" selected="selected">5</option>
+											<option value="7">7</option>
+											<option value="9">9</option>
+											</select><br><br>
+											Ingredients : <select id="selColor">
+			                        <option value="pink">Ham</option>
+                                    <option value="red">Tomato Sauce</option>
+                                    <option value="green">Rucolli leaves</option>
+                                    <option value="yellow">Cheese</option>
+                                                        </select><br><br>
+		                <button onclick="javascript:clearArea();return false;">Clear Canvas Area</button>
+                    </div>
+				</div>
+				<div class="canvasArea allfloatLeft middleBox">
+					<h2>Canvas- Workarea</h2>
+					<canvas id="myCanvas">
+					</canvas>
+				</div>
+				<div class="allfloatLeft rightBox">
+				<div class="borderass rightBox1">
+                    <div id="pizza-count" ></div>
+					<img id="myOven" src= "microwaveOff.jpg" alt = "Microwave_image">
+					
+					<button type="button" onclick="ovenOn()">To Bake Pizza</button>
+                    <button type="button" onclick="ovenOff()" id="turn-off" disabled="disabled">Turn Off</button>
+				</div>
+				<div class="borderass rightBox2">
+					<h3> Timer </h3>
+                    <p id="timer"></p>
+				    <button onclick="ReStartFunction()">Start</button>
+                    <button onclick="StopFunction()">Stop</button>
+                    <button id="pause" onclick="PauseFunction()">Pause</button>
+				</div>
+				<div class="borderass rightBox3">
+				<h3>Delivery box</h3>
+                    <p>Pizza's Deliverd: <input type="text" id="delivery-count" value="0" disabled="disabled" /></p>
+				</div>
+                </div>
+            <div class="activityStatusBox borderass">
+            Activity
+                <p><b>Note:</b>This round ends after certain amount of time.</p>
+            </div>
+            <footer><p>@Team Pizza- Vinod Reddy Annadi/ Prathik Desai Vivekanand/ Nikitha Pesaru</p> 
+				</footer>
+		</body>
+</html>
